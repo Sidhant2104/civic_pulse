@@ -1,4 +1,4 @@
-package com.civicpulse.config;
+package com.project.backend.config;
 
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.cloud.firestore.Firestore;
@@ -18,7 +18,7 @@ public class FirebaseConfig {
     public Firestore firestore() throws IOException {
 
         InputStream serviceAccount =
-                getClass().getClassLoader().getResourceAsStream("firebase-key.json");
+                getClass().getClassLoader().getResourceAsStream("civicpulse-fff49-firebase-adminsdk-fbsvc-b57154d391.json");
 
         FirebaseOptions options = FirebaseOptions.builder()
                 .setCredentials(GoogleCredentials.fromStream(serviceAccount))
