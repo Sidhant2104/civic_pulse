@@ -1,0 +1,25 @@
+# IDE
+.idea/
+.vscode/
+
+# Backend
+backend/target/
+backend/*.log
+
+# Firebase Secret
+backend/src/main/resources/*firebase*.json
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+.idea/
+.vscode/
+backend/target/
+backend/src/main/resources/*firebase*.json
+    
