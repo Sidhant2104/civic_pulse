@@ -1,11 +1,12 @@
-package com.civicpulse.model;
+package com.project.backend.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
+import com.google.cloud.Timestamp;
+
 
 @Data
 @Builder
@@ -21,9 +22,9 @@ public class Issue {
 
     private String createdBy;   // userId
 
-    private LocalDateTime createdAt;
+    private Timestamp createdAt;
+    private Timestamp closedAt;
 
-    private LocalDateTime closedAt;
 
     private String closedBy;    // userId (official who resolved)
 }

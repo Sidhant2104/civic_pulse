@@ -5,7 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
+import com.google.cloud.Timestamp;
 
 @Data
 @Builder
@@ -21,5 +21,5 @@ public class IssueStatusHistory {
 
     private String updatedBy;   // userId
 
-    private LocalDateTime timestamp;
+    private Timestamp timestamp;
 }
