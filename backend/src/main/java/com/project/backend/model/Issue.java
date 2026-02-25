@@ -20,6 +20,10 @@ public class Issue {
 
     private String departmentId;
 
+    private Priority priority;
+
+    private String assignedTo; // userId of official
+
     private String createdBy;   // userId
 
     private Timestamp createdAt;

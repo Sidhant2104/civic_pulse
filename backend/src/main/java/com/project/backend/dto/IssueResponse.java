@@ -14,6 +14,10 @@ public class IssueResponse {
 
     private String departmentId;
 
+    private String priority;
+
+    private String assignedTo;
+
     private String status;
 
     private String createdBy;

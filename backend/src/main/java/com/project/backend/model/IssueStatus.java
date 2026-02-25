@@ -4,6 +4,8 @@ public enum IssueStatus {
 
     CREATED,
     IN_PROGRESS,
+    CLOSED,
     RESOLVED,
-    ESCALATED
+    ESCALATED,
+    SLA_BREACHED
 }
